@@ -105,6 +105,22 @@ namespace Valve.VR
             }
         }
         
+        public virtual SteamVR_Action_Boolean Freeze
+        {
+            get
+            {
+                return SteamVR_Actions.default_Freeze;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean Respawn
+        {
+            get
+            {
+                return SteamVR_Actions.default_Respawn;
+            }
+        }
+        
         public virtual SteamVR_Action_Vibration Haptic
         {
             get
